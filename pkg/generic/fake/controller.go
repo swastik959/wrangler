@@ -29,6 +29,7 @@ import (
 type MockControllerMeta struct {
 	ctrl     *gomock.Controller
 	recorder *MockControllerMetaMockRecorder
+	isgomock struct{}
 }
 
 // MockControllerMetaMockRecorder is the mock recorder for MockControllerMeta.
@@ -118,6 +119,7 @@ func (mr *MockControllerMetaMockRecorder) Updater() *gomock.Call {
 type MockRuntimeMetaObject struct {
 	ctrl     *gomock.Controller
 	recorder *MockRuntimeMetaObjectMockRecorder
+	isgomock struct{}
 }
 
 // MockRuntimeMetaObjectMockRecorder is the mock recorder for MockRuntimeMetaObject.
@@ -559,6 +561,7 @@ func (mr *MockRuntimeMetaObjectMockRecorder) SetUID(uid any) *gomock.Call {
 type MockControllerInterface[T generic.RuntimeMetaObject, TList runtime.Object] struct {
 	ctrl     *gomock.Controller
 	recorder *MockControllerInterfaceMockRecorder[T, TList]
+	isgomock struct{}
 }
 
 // MockControllerInterfaceMockRecorder is the mock recorder for MockControllerInterface.
@@ -849,6 +852,7 @@ func (mr *MockControllerInterfaceMockRecorder[T, TList]) WithImpersonation(imper
 type MockNonNamespacedControllerInterface[T generic.RuntimeMetaObject, TList runtime.Object] struct {
 	ctrl     *gomock.Controller
 	recorder *MockNonNamespacedControllerInterfaceMockRecorder[T, TList]
+	isgomock struct{}
 }
 
 // MockNonNamespacedControllerInterfaceMockRecorder is the mock recorder for MockNonNamespacedControllerInterface.
@@ -1139,6 +1143,7 @@ func (mr *MockNonNamespacedControllerInterfaceMockRecorder[T, TList]) WithImpers
 type MockClientInterface[T generic.RuntimeMetaObject, TList runtime.Object] struct {
 	ctrl     *gomock.Controller
 	recorder *MockClientInterfaceMockRecorder[T, TList]
+	isgomock struct{}
 }
 
 // MockClientInterfaceMockRecorder is the mock recorder for MockClientInterface.
@@ -1301,6 +1306,7 @@ func (mr *MockClientInterfaceMockRecorder[T, TList]) WithImpersonation(impersona
 type MockNonNamespacedClientInterface[T generic.RuntimeMetaObject, TList runtime.Object] struct {
 	ctrl     *gomock.Controller
 	recorder *MockNonNamespacedClientInterfaceMockRecorder[T, TList]
+	isgomock struct{}
 }
 
 // MockNonNamespacedClientInterfaceMockRecorder is the mock recorder for MockNonNamespacedClientInterface.

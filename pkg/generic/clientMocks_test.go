@@ -26,6 +26,7 @@ import (
 type MockembeddedClient struct {
 	ctrl     *gomock.Controller
 	recorder *MockembeddedClientMockRecorder
+	isgomock struct{}
 }
 
 // MockembeddedClientMockRecorder is the mock recorder for MockembeddedClient.
