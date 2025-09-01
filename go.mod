@@ -102,4 +102,4 @@ require (
 	sigs.k8s.io/yaml v1.6.0 // indirect
 )
 
-replace github.com/rancher/lasso => github.com/swastik959/lasso v0.0.0-20250901065506-dab56086439b
+replace github.com/rancher/lasso => github.com/swastik959/lasso v0.0.0-20250901111121-0b5360104008
