@@ -1,6 +1,6 @@
 module github.com/rancher/wrangler/v3
 
-go 1.24.0
+go 1.25.0
 
 require (
 	github.com/evanphx/json-patch v5.9.11+incompatible
@@ -14,14 +14,14 @@ require (
 	golang.org/x/sync v0.16.0
 	golang.org/x/text v0.28.0
 	golang.org/x/tools v0.36.0
-	k8s.io/api v0.34.0
-	k8s.io/apiextensions-apiserver v0.34.0
-	k8s.io/apimachinery v0.34.0
-	k8s.io/client-go v0.34.0
-	k8s.io/code-generator v0.34.0
+	k8s.io/api v0.34.1
+	k8s.io/apiextensions-apiserver v0.34.1
+	k8s.io/apimachinery v0.34.1
+	k8s.io/client-go v0.34.1
+	k8s.io/code-generator v0.34.1
 	k8s.io/gengo v0.0.0-20250130153323-76c5745d3511
 	k8s.io/gengo/v2 v2.0.0-20250604051438-85fd79dbfd9f
-	k8s.io/kube-aggregator v0.34.0
+	k8s.io/kube-aggregator v0.34.1
 	k8s.io/kube-openapi v0.0.0-20250710124328-f3f2b991d03b
 	sigs.k8s.io/cli-utils v0.37.2
 )
@@ -91,8 +91,8 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/apiserver v0.34.0 // indirect
-	k8s.io/component-base v0.34.0 // indirect
+	k8s.io/apiserver v0.34.1 // indirect
+	k8s.io/component-base v0.34.1 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/utils v0.0.0-20250604170112-4c0f3b243397 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.31.2 // indirect
@@ -102,4 +102,4 @@ require (
 	sigs.k8s.io/yaml v1.6.0 // indirect
 )
 
-replace github.com/rancher/lasso => github.com/swastik959/lasso v0.0.0-20250902065928-79f7f7dc9ff6
+replace github.com/rancher/lasso => github.com/swastik959/lasso v0.0.0-20250923105400-206df1201acf
